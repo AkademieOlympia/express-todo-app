@@ -1,0 +1,19 @@
+{
+  "name": "express-todo-app",
+  "version": "1.0.0",
+  "description": "A basic Express.js TODO app boilerplate",
+  "dependencies": {
+    "express": "^4.18",
+    "nodemon": "^18.10.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: No test specified!\" && exit 1",
+    "lint": "eslint \"./*.js\"",
+    "pretty": "node .",
+    "pretty-check": "node c loc // node_modules/*/lib// exec ./*.js"
+  },
+  "author": "Your Name",
+  "license": "ISC-License",
+  "keywords": ["express", "nodejs", "todo"]
+}
